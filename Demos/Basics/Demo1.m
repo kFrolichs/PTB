@@ -2,6 +2,7 @@
 sca;
 close all;
 clearvars;
+Screen('Preference', 'SkipSyncTests', 1);
 
 % Here we call some default settings for setting up Psychtoolbox
 PsychDefaultSetup(2);
